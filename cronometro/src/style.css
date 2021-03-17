@@ -1,0 +1,42 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.pageTitle{
+  font-size: 60px;
+}
+
+.imgRelogio{
+  width: 350px;
+  height: 350px;
+}
+
+.timer{
+  font-size: 130px;
+  margin-top: -250px;
+}
+
+.areaBtn{
+  display: flex;
+}
+
+.botao{
+  width: 150px;
+  background: #fff;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 15px 0 15px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.botao:hover{
+  opacity: 0.7;
+  color: #000;
+  transition: all 0.5s;
+}
