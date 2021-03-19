@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-title{
+  font-family: Poppins;
+  font-size: 60px;
+  text-align: center;
+  line-height: 120px;
+  color: #4267E9;
+  margin-top: 30px;
+}
+
+.input-task-form{
+  margin: 20px 0 30px 0;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #fff;
+}
+
+.input-task-form input{
+  padding: 10px;
+  width: 500px;
+  border: #ffffff;
+  border-radius: 10px 0 0 10px;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.input-task-form button{
+  background: #4267E9;
+  padding: 10px;
+  width: 100px;
+  border: #4267E9;
+  border-radius: 0 10px 10px 0px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.separator{
+  border-bottom: 2px solid #ffffff;
+  margin: 40px 0;
+}
+
+.tasks-list ul{
+  list-style-type: none;
+}
+
+.task-item{
+  display: flex;
+}
+
+
+.task-item img{
+  width: 40px;
+  margin-left: auto;
+}
+
+.tasks-list  li{
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  padding-left: 20px;
+  justify-content: center;
+  align-items: center;
+}
